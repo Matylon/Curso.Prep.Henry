@@ -79,8 +79,8 @@ function sonIguales(x, y) {
       return true;
     }
 }
- son Iguales (1,1);
- son iguales (2,3);  
+ sonIguales (1,1);
+ sonIguales (2,3);  
 
 
 function tienenMismaLongitud(str1, str2) {
@@ -100,18 +100,29 @@ function tienenMismaLongitud(str1, str2) {
 
 
 function menosQueNoventa(num) {
+
+
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num<90) {
+     return true;
+  } else {
+    return false;
+  }
 }
+
+menosQueNoventa(20);
+menosQueNoventa(100);
+
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+    
 }
+mayorQueCincuenta
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
